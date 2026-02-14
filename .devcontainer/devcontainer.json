@@ -7,7 +7,6 @@
   "updateContentCommand": "npm install",
   "postCreateCommand": "npm install -g @github/copilot",
   "postAttachCommand": {
-    "server": "npm start"
   },
   "customizations": {
     "codespaces": {
