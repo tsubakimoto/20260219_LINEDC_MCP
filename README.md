@@ -11,3 +11,23 @@ To run this application:
 ```
 npm start
 ```
+
+## スライド
+
+このリポジトリには、Marp形式で作成されたプレゼンテーションスライドが含まれている。
+
+- `slides-10mins.md` - LINEボットでMCPサーバーを活用する（10分版）
+
+### スライドの表示方法
+
+Marp形式のスライドを表示するには、以下のいずれかの方法を使用する:
+
+1. **Marp CLI**を使用してHTMLやPDFに変換:
+   ```bash
+   npx @marp-team/marp-cli slides-10mins.md -o slides-10mins.html
+   npx @marp-team/marp-cli slides-10mins.md -o slides-10mins.pdf
+   ```
+
+2. **VS Code拡張機能**を使用:
+   - [Marp for VS Code](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)をインストール
+   - `slides-10mins.md`を開き、プレビューで表示
